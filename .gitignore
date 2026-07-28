@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 模型文件（体积大，建议用 Git LFS 或网盘分享）
+model_artifacts_v19_updated_ae/
+
+# 图片输出
+*.png
+*.jpg
+
+# 原始数据文件（GEO 公开数据集，体积大）
+GSE25066_series_matrix.txt
+GPL96-57554.txt
+*.gz
+
+# 重要基因文本输出
+important_genes_final_v19_updated_ae.txt
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
